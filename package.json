@@ -1,0 +1,40 @@
+{
+  "name": "engagement-survey-web-client",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vuepic/vue-datepicker": "^8.8.0",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "canvas-confetti": "^1.9.3",
+    "chart.js": "^4.4.4",
+    "flowbite": "^2.5.1",
+    "flowbite-vue": "^0.1.5",
+    "lodash.debounce": "^4.0.8",
+    "scss": "^0.2.4",
+    "vite": "^5.2.13",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1",
+    "vue-i18n": "^10.0.0",
+    "vue-router": "^4.4.2",
+    "vue-wordcloud": "^1.1.1",
+    "vue3-click-away": "^1.2.4",
+    "vue3-flag-icons": "^0.0.3",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.7",
+    "vite-plugin-vue-devtools": "^7.2.1"
+  }
+}
