@@ -1,0 +1,28 @@
+{
+  "gender": {
+    "gender1": "Nam",
+    "gender2": "Nữ"
+  },
+  "selections": {
+    "selection1": "Hoàn toàn không đồng ý",
+    "selection2": "Không đồng ý",
+    "selection3": "Trung lập",
+    "selection4": "Đồng ý",
+    "selection5": "Hoàn toàn đồng ý"
+  },
+  "optionsSelection": "-- Vui lòng chọn --", 
+  "selectDate": "Chọn ngày",
+
+  "years_of_service": {
+    "years_of_service1": "Ít hơn 6 tháng",
+    "years_of_service2": "Hơn 6 tháng nhưng không quá 1 năm",
+    "years_of_service3": "1 năm nhưng không quá 2 năm",
+    "years_of_service4": "Từ 2 đến 5 năm",
+    "years_of_service5": "Từ 6 đến 10 năm",
+    "years_of_service6": "11 đến 15 năm",
+    "years_of_service7": "16 đến 20 năm",
+    "years_of_service8": "21 đến 25 năm",
+    "years_of_service9": "26 năm trở lên",
+    "years_of_service10": "11 năm trở lên"
+  }
+}

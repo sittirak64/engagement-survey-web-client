@@ -1,0 +1,28 @@
+{
+  "gender": {
+    "gender1": "पुरुष",
+    "gender2": "महिला"
+  },
+  "selections": {
+    "selection1": "पूरी तरह असहमत",
+    "selection2": "असहमत",
+    "selection3": "तटस्थ",
+    "selection4": "सहमत",
+    "selection5": "पूरी तरह सहमत"
+  },
+  "optionsSelection": "-- कृपया चयन करें --",
+  "selectDate": "तारीख चुनें",
+  
+  "years_of_service": {
+    "years_of_service1": "6 महीने से कम",
+    "years_of_service2": "6 महीने से अधिक लेकिन 1 साल से कम",
+    "years_of_service3": "1 साल से अधिक लेकिन 2 साल से कम",
+    "years_of_service4": "2 साल से 5 साल तक",
+    "years_of_service5": "6 साल से 10 साल तक",
+    "years_of_service6": "11 साल से 15 साल तक",
+    "years_of_service7": "16 साल से 20 साल तक",
+    "years_of_service8": "21 साल से 25 साल तक",
+    "years_of_service9": "26 साल और उससे अधिक",
+    "years_of_service10": "11 साल और उससे अधिक"
+  }
+}

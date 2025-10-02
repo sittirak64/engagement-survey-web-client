@@ -1,0 +1,29 @@
+{
+    "gender": {
+      "gender1": "男",
+      "gender2": "女"
+    },
+    "selections": {
+      "selection1": "完全不同意",
+      "selection2": "不同意",
+      "selection3": "中立",
+      "selection4": "同意",
+      "selection5": "完全同意"
+    },
+    "optionsSelection": "-- 请选择 --",
+    "selectDate": "选择日期",
+    
+    "years_of_service": {
+      "years_of_service1": "少于 6 个月",
+      "years_of_service2": "超过 6 个月但不超过 1 年",
+      "years_of_service3": "1 年但不超过 2 年",
+      "years_of_service4": "2 至 5 年",
+      "years_of_service5": "6 至 10 年",
+      "years_of_service6": "11 至 15 年",
+      "years_of_service7": "16 至 20 年",
+      "years_of_service8": "21 至 25 年",
+      "years_of_service9": "26 年及以上",
+      "years_of_service10": "11 年及以上"
+    }
+  }
+  

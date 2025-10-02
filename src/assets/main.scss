@@ -1,0 +1,126 @@
+// CSS variable definitions in :root for easy theming
+:root {
+  --primary-color: #d1ec51;
+  --secondary-color: #24b433;
+  --tertiary-color: #2b303a;
+  --quaternary-color: #262b30;
+  --quinary-color: #d1ec51;
+  --senary-color: #cdccce;
+  --septenary-color: #00bab3;
+  --octonary-color: #b4dddc;
+  --nonary-color: #e0f2ef;
+  --denary-color: #ffffff;
+  --font-primary-color: #000000;
+  --font-secondary-color: #ffffff;
+}
+
+// Define SCSS variables using CSS variables for easy theme managementnh
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$tertiary-color: var(--tertiary-color);
+$quaternary-color: var(--quaternary-color);
+$quinary-color: var(--quinary-color);
+$senary-color: var(--senary-color);
+$septenary-color: var(--septenary-color);
+$octonary-color: var(--octonary-color);
+$nonary-color: var(--nonary-color);
+$denary-color: var(--denary-color);
+$font-primary-color: var(--font-primary-color);
+$font-secondary-color: var(--font-secondary-color);
+
+// Map of color names to variables for dynamic class generation
+$colors: (
+  "primary": $primary-color,
+  "secondary": $secondary-color,
+  "tertiary": $tertiary-color,
+  "quaternary": $quaternary-color,
+  "quinary": $quinary-color,
+  "senary": $senary-color,
+  "septenary": $septenary-color,
+  "octonary": $octonary-color,
+  "nonary": $nonary-color,
+  "denary": $denary-color,
+);
+
+$font-colors: (
+  "primary": $font-primary-color,
+  "secondary": $font-secondary-color,
+);
+
+@font-face {
+  font-family: 'Carnac';
+  src: url('./fonts/Carnac/CarnacRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Base HTML styles
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+// Typography styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  text-align: center;
+  font-family: "Carnac", Arial;
+  color: var(--font-primary-color);
+}
+
+input{
+  font-family: 'Carnac', Arial;
+}
+
+// Main layout container
+.mainLayout {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+// Main content area styling
+.mainLayout main {
+  flex: 1 0 auto;
+}
+
+// Remove padding from .container-fluid
+.container-fluid {
+  display: flex;
+  padding-top: 68px;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  justify-content: center;
+}
+
+// Form control focus states
+.form-control:focus,
+.form-select:focus,
+.vdp-datepicker__input:hover {
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 0.2rem var(--nonary-color);
+  outline: none;
+}
+
+// Generate background color classes dynamically
+@each $color-name, $color-value in $colors {
+  .bg-#{$color-name} {
+    background-color: #{$color-value} !important;
+  }
+}
+
+// Generate text color classes dynamically
+@each $color-name, $color-value in $font-colors {
+  .text-#{$color-name} {
+    color: #{$color-value} !important;
+  }
+} 

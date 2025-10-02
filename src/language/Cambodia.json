@@ -1,0 +1,28 @@
+{
+  "gender": {
+    "gender1": "ប្រុស",
+    "gender2": "ស្រី"
+  },
+  "selections": {
+    "selection1": "មិនយល់ព្រមយ៉ាងខ្លាំង",
+    "selection2": "មិនយល់ព្រម",
+    "selection3": "អព្យាក្រឹត",
+    "selection4": "យល់ព្រម",
+    "selection5": "យល់ព្រមយ៉ាងខ្លាំង"
+  },
+  "optionsSelection": "-- សូមជ្រើសរើស --",
+  "selectDate": "ជ្រើសកាលបរិច្ឆេទ",
+  
+  "years_of_service": {
+    "years_of_service1": "តិចជាង 6 ខែ",
+    "years_of_service2": "បីសែត 6 ខែ ប៉ុន្តែ មិនច្រើនជាង 1 ឆ្នាំ",
+    "years_of_service3": "1 ឆ្នាំ ប៉ុន្តែ មិនច្រើនជាង 2 ឆ្នាំ",
+    "years_of_service4": "ពី 2 ដល់ 5 ឆ្នាំ",
+    "years_of_service5": "ពី 6 ដល់ 10 ឆ្នាំ",
+    "years_of_service6": "11 ដល់ 15 ឆ្នាំ",
+    "years_of_service7": "16 ដល់ 20 ឆ្នាំ",
+    "years_of_service8": "21 ដល់ 25 ឆ្នាំ",
+    "years_of_service9": "26 ឆ្នាំ និងលើស",
+    "years_of_service10": "11 ឆ្នាំ និងលើស"
+  }
+}
